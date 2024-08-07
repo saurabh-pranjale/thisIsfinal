@@ -41,6 +41,8 @@ const Cart = () => {
     setCart([...updatedCart]);
   };
 
+  console.log(cart)
+
   return (
     <div>
       {cart.map(({ item, quantity }) => (

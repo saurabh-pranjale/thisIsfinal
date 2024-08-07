@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='bg-success mx-auto w-50'>
+      <div className='mx-auto w-50'>
         <button onClick={() => setFilt("all")}>All</button>
         <button onClick={() => setFilt("men's clothing")}>Men</button>
         <button onClick={() => setFilt("women's clothing")}>Women</button>
